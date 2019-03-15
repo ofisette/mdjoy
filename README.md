@@ -5,7 +5,7 @@ Python package for molecular structure and Gromacs topology manipulation
 ## License
 
 You can use Dorothy under the terms of the MIT License; see
-[`LICENSE.md`](https://github.com/ofisette/mdjoyblob/master/LICENSE.md) in the
+[`LICENSE.md`](https://github.com/ofisette/mdjoy/blob/master/LICENSE.md) in the
 project files.
 
 ## Status
