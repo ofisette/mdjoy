@@ -1,0 +1,38 @@
+#include "amber99sb-star-ildnp.ff/forcefield.itp"
+
+#include "solute/vsites/HLA.itp"
+#ifdef POSRES_PROTEIN
+#include "posres/vsites/HLA.itp"
+#endif
+
+#include "solute/vsites/B2M.itp"
+#ifdef POSRES_PROTEIN
+#include "posres/vsites/B2M.itp"
+#endif
+
+#include "solute/vsites/Ag.itp"
+#ifdef POSRES_PROTEIN
+#include "posres/vsites/Ag.itp"
+#endif
+
+#include "amber99sb-star-ildnp.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+#include "amber99sb-star-ildnp.ff/ions.itp"
+
+[ system ]
+B*44:02 (DPA), D114c-D116c-D156c
+
+[ molecules ]
+HLA      1
+B2M      1
+Ag       1
+SOL  20579
+NA      36
+CL      24
