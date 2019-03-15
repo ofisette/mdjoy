@@ -1,2 +1,32 @@
 # mdjoy
+
 Python package for molecular structure and Gromacs topology manipulation
+
+## License
+
+You can use Dorothy under the terms of the MIT License; see
+[`LICENSE.md`](https://github.com/ofisette/mdjoyblob/master/LICENSE.md) in the
+project files.
+
+## Status
+
+This is experimental software initially developed for my specific needs and
+those of other laboratory members. It has not been extensively tested. Use at
+your own risks!
+
+## Installation
+
+This package was developed for Python 3.6 and will not work with Python 2. Link
+the `src` directory or copy its content to a location where it will be found by
+your Python interpreter. If the `progressbar` package is available, it will be
+used to monitor the progress of some algorithms.
+
+## Documentation
+
+There is no documentation for this package. A short tutorial about editing
+Gromacs topologies is available on the TheoChem@RUB wiki (restricted to
+in-campus access):
+
+- http://bochum.theochem.rub.de/mediawiki/index.php/Editing_Gromacs_topologies
+
+Refer to the source code and the `examples` directory for more details.
