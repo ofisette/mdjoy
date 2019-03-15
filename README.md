@@ -30,3 +30,13 @@ in-campus access):
 - http://bochum.theochem.rub.de/mediawiki/index.php/Editing_Gromacs_topologies
 
 Refer to the source code and the `examples` directory for more details.
+
+## Community
+
+Dorothy is developed by [Olivier Fisette](mailto:olivier.fisette@rub.de) in the
+[Molecular Simulation Group](https://molecular-simulation.org/) of Lars V.
+Schäfer at the Center for Theoretical Chemistry of Ruhr-University Bochum,
+Germany.
+
+Contributions, bug reports and feature suggestions are welcome. Development is
+tracked in the project’s [repository](https://github.com/ofisette/mdjoy).
