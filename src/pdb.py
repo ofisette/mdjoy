@@ -2,6 +2,7 @@ from textwrap import wrap
 from mdjoy import *
 
 class PDBAtom:
+    """An atom record in a PDB structure"""
 
     def __init__(self, hetatom, id, name, alternate, resname, chain, resid, \
             insertion, x, y, z, occupancy, temperature, \
@@ -24,6 +25,8 @@ class PDBAtom:
         self.charge = charge
 
 def read(infile):
+    """Read a PDB structure from a filename or stream, returning an (atoms,
+    cell, title) tuple"""
     if isinstance(infile, str):
         infile = open(infile)
 
@@ -80,6 +83,8 @@ def read(infile):
     return atoms, cell, title
 
 def write(outfile, atoms, cell = None, title = None):
+    """Write a PDB structure to a filename or stream, from the given atoms and,
+    optionally, cell (3x3 matrix) and title"""
     if isinstance(outfile, str):
         outfile = open(outfile, "w")
 
