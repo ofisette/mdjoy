@@ -29,7 +29,8 @@ in-campus access):
 
 - http://bochum.theochem.rub.de/mediawiki/index.php/Editing_Gromacs_topologies
 
-Refer to the source code and the `examples` directory for more details.
+Refer to the source code, docstrings, and to the `examples` directory for more
+details.
 
 ## Community
 
