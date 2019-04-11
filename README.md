@@ -17,7 +17,7 @@ your own risks!
 ## Installation
 
 This package was developed for Python 3.6 and will not work with Python 2. Link
-the `src` directory or copy its content to a location where it will be found by
+the `src` directory or copy its contents to a location where it will be found by
 your Python interpreter. If the `progressbar` package is available, it will be
 used to monitor the progress of some algorithms.
 
