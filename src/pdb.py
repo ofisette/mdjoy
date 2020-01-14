@@ -31,7 +31,7 @@ def read(infile):
         infile = open(infile)
 
     title = ""
-    cell = []
+    cell = None
     atoms = []
 
     for line in infile:
