@@ -21,7 +21,11 @@ def read(infile):
 
     atoms = []
     for i in range(natoms):
-        name, x, y, z = infile.readline().split()
+        tokens = infile.readline().split()
+        name = tokens[0]
+        x = float(tokens[1])
+        y = float(tokens[2])
+        z = float(tokens[3])
         atoms.append(XYZAtom(name, x, y, z))
 
     return atoms, title
