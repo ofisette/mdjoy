@@ -2,7 +2,7 @@ import numpy as np
 
 cell_order = [(0,0), (1,1), (2,2), (1,0), (2,0), (0,1), (2,1), (0,2), (1,2)]
 
-class GROAtom():
+class GROAtom:
     """An atom record in a Gromos87 structure"""
 
     def __init__(self, resid, resname, name, id, x, y, z):
