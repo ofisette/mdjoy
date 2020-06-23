@@ -4,15 +4,15 @@ Python package for molecular structure and Gromacs topology manipulation
 
 ## License
 
-You can use Dorothy under the terms of the MIT License; see
+You can use mdjoy under the terms of the MIT License; see
 [`LICENSE.md`](https://github.com/ofisette/mdjoy/blob/master/LICENSE.md) in the
 project files.
 
 ## Status
 
-This is experimental software initially developed for my specific needs and
-those of other laboratory members. It has not been extensively tested. Use at
-your own risks!
+This is experimental software developed for my specific needs and those of other
+members of the laboratory I worked in. It has not been extensively tested. Use
+at your own risks!
 
 ## Installation
 
@@ -34,7 +34,7 @@ details.
 
 ## Community
 
-Dorothy is developed by [Olivier Fisette](mailto:olivier.fisette@rub.de) in the
+Mdjoy is developed by [Olivier Fisette](mailto:olivier.fisette@rub.de) in the
 [Molecular Simulation Group](https://molecular-simulation.org/) of Lars V.
 Schäfer at the Center for Theoretical Chemistry of Ruhr-University Bochum,
 Germany.
